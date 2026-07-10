@@ -1,0 +1,32 @@
+/* Styles untuk card proyek Sistem Pemesanan Tiket Bioskop */
+.project-card{
+  background: #fff3f6;
+  border: 1px solid #e8c0cb;
+  border-radius: 8px;
+  padding: 12px;
+  width: 320px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 8px;
+}
+.project-link{ text-decoration: none; color: inherit; display: flex; gap:12px; align-items:flex-start; }
+.project-img{ width:96px; height:64px; object-fit:cover; border-radius:6px; border:1px solid #f0d6dc; }
+.project-title{ margin:0; font-size:1rem; color:#b21f5a; }
+.project-category{ margin:0; font-size:.85rem; color:#a03a5b; }
+.project-desc{ margin:6px 0 0 0; font-size:.85rem; color:#6b2f3e; }
+.project-btn{
+  display:inline-block;
+  text-align:center;
+  background:#c72a5b;
+  color:#fff;
+  padding:6px 10px;
+  border-radius:6px;
+  text-decoration:none;
+  font-size:.9rem;
+}
+@media (max-width:800px){
+  .project-card{ width:100%; flex-direction:row; align-items:center; }
+  .project-img{ width:120px; height:72px; }
+}

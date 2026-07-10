@@ -12,6 +12,24 @@ const projects = [
     accent: "var(--neon-green)",
   },
   {
+    title: "Apotek Kampus Sehat Farma",
+    image: "/projects/apotek-kampus-sehat-farma.png",
+    url: "https://apotek-kampus-sehat-farma.vercel.app/",
+    description:
+      "Apotek Kampus Sehat Farma adalah aplikasi manajemen apotek berbasis web yang dirancang untuk mengelola data obat, stok, transaksi penjualan dan pembelian, supplier, serta laporan keuangan dengan sistem role Admin dan Kasir dalam antarmuka yang responsif dan modern.",
+    tags: ["Next.js", "Tailwind", "Web App"],
+    accent: "var(--neon-pink)",
+  },
+  {
+    title: "Sistem Pemesanan Tiket Bioskop",
+    image: "/projects/sistem-pemesanan-tiket.png",
+    url: "http://localhost:8501",
+    description:
+      "Sistem Pemesanan Tiket Bioskop adalah aplikasi web untuk memilih film, menentukan jadwal tayang, mengatur jumlah tiket, melihat total harga otomatis, dan menyimpan riwayat pemesanan. Dibangun dengan HTML, CSS, dan JavaScript.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    accent: "var(--neon-pink)",
+  },
+  {
     title: "Portfolio 3D Interaktif",
     description:
       "Website portfolio dengan scene 3D interaktif, animasi hologram, dan pengalaman visual futuristik berbasis React Three Fiber.",
