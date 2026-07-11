@@ -21,6 +21,15 @@ const projects = [
     accent: "var(--neon-pink)",
   },
   {
+    title: "Layanan Pengaduan Masyarakat",
+    image: "/projects/layanan-pengaduan-masyarakat.png",
+    url: "http://localhost:5173",
+    description:
+      "Portal Layanan Pengaduan Masyarakat Kota Salatiga adalah aplikasi web berbasis Smart City yang memudahkan masyarakat dalam melaporkan permasalahan fasilitas publik seperti jalan rusak, lampu jalan, sampah, dan layanan umum lainnya. Sistem dilengkapi fitur pengaduan online, upload foto bukti, penentuan lokasi melalui peta interaktif, serta pelacakan status pengaduan secara real-time dengan tampilan modern, responsif, dan ramah pengguna.",
+    tags: ["React", "Smart City", "Maps"],
+    accent: "var(--neon-blue)",
+  },
+  {
     title: "Sistem Pemesanan Tiket Bioskop",
     image: "/projects/sistem-pemesanan-tiket.png",
     url: "http://localhost:8501",
@@ -28,27 +37,6 @@ const projects = [
       "Sistem Pemesanan Tiket Bioskop adalah aplikasi web untuk memilih film, menentukan jadwal tayang, mengatur jumlah tiket, melihat total harga otomatis, dan menyimpan riwayat pemesanan. Dibangun dengan HTML, CSS, dan JavaScript.",
     tags: ["HTML", "CSS", "JavaScript"],
     accent: "var(--neon-pink)",
-  },
-  {
-    title: "Portfolio 3D Interaktif",
-    description:
-      "Website portfolio dengan scene 3D interaktif, animasi hologram, dan pengalaman visual futuristik berbasis React Three Fiber.",
-    tags: ["React", "Three.js", "Tailwind"],
-    accent: "var(--neon-violet)",
-  },
-  {
-    title: "Weather Station IoT",
-    description:
-      "Stasiun cuaca berbasis sensor yang mengirim data suhu, kelembapan, dan tekanan udara ke dashboard web secara langsung.",
-    tags: ["Arduino", "Sensor", "REST API"],
-    accent: "var(--neon-blue)",
-  },
-  {
-    title: "Task Manager App",
-    description:
-      "Aplikasi manajemen tugas dengan antarmuka bersih, dukungan drag-and-drop, dan sinkronisasi data secara real-time.",
-    tags: ["React", "TypeScript", "MySQL"],
-    accent: "var(--neon-cyan)",
   },
 ]
 
