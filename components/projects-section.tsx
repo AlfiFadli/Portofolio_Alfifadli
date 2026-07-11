@@ -30,6 +30,15 @@ const projects = [
     accent: "var(--neon-blue)",
   },
   {
+    title: "Salatiga Smart Service",
+    image: "/projects/salatiga-smart-service.png",
+    url: "http://localhost:5173/",
+    description:
+      "Salatiga Smart Service adalah platform pelayanan publik digital berbasis web yang menyediakan reservasi layanan, antrean real-time, QR Code, pengaduan masyarakat, serta dashboard admin dan analitik untuk mendukung konsep Smart City dan meningkatkan efisiensi pelayanan masyarakat Kota Salatiga.",
+    tags: ["Smart City", "Dashboard", "QR Code"],
+    accent: "var(--neon-cyan)",
+  },
+  {
     title: "Sistem Pemesanan Tiket Bioskop",
     image: "/projects/sistem-pemesanan-tiket.png",
     url: "http://localhost:8501",
